@@ -189,7 +189,7 @@
 	</iframe>
 	<center>
 		<div class="row">
-			<form class="contact" action="../php/mailer.php" target="contact-iframe" method="post" id="contactform">
+			<form class="contact" action="php/mailer.php" target="contact-iframe" method="post" id="contactform">
 				<div class="col-md-offset-4 col-md-4">
 					<div class="form-group">
 						<input class="col-md-5" type="text" name="firstname" id="namefield" placeholder="Name" required class="form-control">
