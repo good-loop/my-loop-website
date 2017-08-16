@@ -127,6 +127,11 @@ input,textarea {
     color: white;
 }
 
+.jumbotron-btn:focus {
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
 #video-background {
     top: 0;
     right: 0;
@@ -212,4 +217,10 @@ input,textarea {
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
+}
+
+.thankyoufield {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
