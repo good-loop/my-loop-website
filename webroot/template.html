@@ -7,56 +7,91 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="">
+    <link rel="icon" href="img/ml-logo-ppl-trans-bkgrnd.png">
 
     <title>My-Loop: Your Data, Your Choice</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/my-loop.css" rel="stylesheet">
 </HEAD>
-<BODY>   
+<BODY>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     			<ul class="nav navbar-nav">
     				<li>
-    					<a href="#">My Loop</a>
+    					<a href="#" id="navhome">My-Loop</a>
     				</li>
     				<li>
-    					<a href="#">About</a>
+    					<a href="#" id="navabout">About</a>
     				</li>
     				<li>
-    					<a href="#">How</a>
+    					<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
     				</li>
     				<li>
-    					LOGO
+    					<a href="#" id="navhow">How</a>
     				</li>
       				<li>
-      					<a href="#">Team</a>
-      				</li>
-      				<li>
-      					<a href="#">Contact Us</a>
+      					<a href="#" id="navcontact">Contact Us</a>
       				</li>
       			</ul>
       		</div>
       	</div>
     </nav>
     <div>
-    	<div class="jumbotron">
+    	<div class="jumbotron" id="top">
     		<video autoplay muted loop poster="img/Big-City-Life.png" id="video-background">
     			<source src="assets/Big-City-Life.webm" type="video/webm">
     		</video>
-    		<div class="container jumbotron-text">
-    			Hello World
+    		<div class="jumbotron-nav col-md-12">
+    			<div class="col-md-offset-3 col-md-6 jumbotron-navlinks">
+    				<ul class="uppernav nav navbar-nav">
+    					<li>
+    						<a href="#" id="navhome" class="whitelink">My-Loop</a>
+    					</li>
+    					<li>
+    						<a href="#" id="navabout" class="whitelink">About</a>
+    					</li>
+    					<li>
+    						<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
+    					</li>
+    					<li>
+    						<a href="#" id="navhow" class="whitelink">How</a>
+    					</li>
+      					<li>
+      						<a href="#" id="navcontact" class="whitelink">Contact Us</a>
+      					</li>
+      				</ul>
+      			</div>
+      		</div>
+    		<div class="jumbotron-text-div">
+    			<div class="col-md-12 jumbotron-text-header">
+	    			<center>
+	    				<p class="jumbotron-text">
+	    					My-Loop: Your Data, Under Your Control.
+	    				</p>
+	    			</center>
+	    		</div>
+	    		<div class="col-md-12 jumbotron-text-tag">
+	    			<center>
+	    				<p class="jumbotron-text-lesser">
+   		 					A safe and ethical data collection, management, and monetisation tool
+    					</p>
+    				</center>
+	    		</div>
+	    		<div class="col-md-12">
+	    			<center>
+	    				<button class="jumbotron-btn btn" src="#" id="btn-learnmore">Learn More</button>
+	    			</center>
+	    		</div>
     		</div>
     	</div>
     </div>
     <div id='page-contents'>
-	    <div class="container simple-page page-part">
 	    $contents
-		</div><!-- ./simple-page -->
 	</div>
 
 
