@@ -73,6 +73,90 @@ $(document).ready(function (){
 });
 // 
 
+
+//  The UPPER Navlink "Home" AKA "My Loop" function
+$(document).ready(function (){
+	$('#uppernavhome').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#top").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The UPPER Navlink "About" function
+$(document).ready(function (){
+	$('#uppernavabout').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#ourvision").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The UPPER Navlink "How" function
+$(document).ready(function (){
+	$('#uppernavhow').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#how").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The UPPER Navlink "Contact Us" function
+$(document).ready(function (){
+	$('#uppernavcontact').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#contact").offset().top
+		}, 2000);
+	});
+});
+// 
+
+
+//  The MOBILE Navlink "Home" AKA "My Loop" function
+$(document).ready(function (){
+	$('#mobilenavhome').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#top").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The MOBILE Navlink "About" function
+$(document).ready(function (){
+	$('#mobilenavabout').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#ourvision").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The MOBILE Navlink "How" function
+$(document).ready(function (){
+	$('#mobilenavhow').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#how").offset().top
+		}, 2000);
+	});
+});
+// 
+
+// The MOBILE Navlink "Contact Us" function
+$(document).ready(function (){
+	$('#mobilenavcontact').click(function() {
+		$('html, body').animate( {
+			scrollTop: $("#contact").offset().top
+		}, 2000);
+	});
+});
+// 
+
+
+
 // ContactUs formsubmission creates a "thank you" section
 $(document).ready(function (){
 	$('#sendcontactform').click(function () {

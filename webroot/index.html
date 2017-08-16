@@ -18,53 +18,83 @@
     <link href="css/my-loop.css" rel="stylesheet">
 </HEAD>
 <BODY>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    			<ul class="nav navbar-nav">
-    				<li>
-    					<a href="#" id="navhome">My-Loop</a>
-    				</li>
-    				<li>
-    					<a href="#" id="navabout">About</a>
-    				</li>
-    				<li>
-    					<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
-    				</li>
-    				<li>
-    					<a href="#" id="navhow">How</a>
-    				</li>
-      				<li>
-      					<a href="#" id="navcontact">Contact Us</a>
-      				</li>
-      			</ul>
-      		</div>
-      	</div>
-    </nav>
+	<!-- Hidden From Mobile Devices -->
+	<div class="container hidden-xs hidden-sm">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	   				<ul class="nav navbar-nav">
+   						<li>
+   							<a href="#" id="navhome">My-Loop</a>
+   						</li>
+   						<li>
+   							<a href="#" id="navabout">About</a>
+	   					</li>
+   						<li>
+   							<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
+   						</li>
+   						<li>
+   							<a href="#" id="navhow">How</a>
+	   					</li>
+   	  					<li>
+   	  						<a href="#" id="navcontact">Contact Us</a>
+   	  					</li>
+   	  				</ul>
+   		  		</div>
+	   	  	</div>
+	   	</nav>
+	</div>
+	<!-- Visible ONLY to Mobile Devices -->
+	<div class="container visible-sm visible-xs">
+		<div class="navbar navbar-fixed-top no-navbar-border">
+			<div class="btn-group pull-right">
+				<button type="button" class="btn btn-orlagreen btn-circle dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#" id="mobilenavhome">My-Loop</a>
+					</li>
+					<li>
+						<a href="#" id="mobilenavabout">About</a>
+					</li>
+					<li>
+						<a href="#" id="mobilenavhow">How</a>
+					</li>
+					<li>
+						<a href="#" id="mobilenavcontact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
     <div>
     	<div class="jumbotron" id="top">
     		<video autoplay muted loop poster="img/Big-City-Life.png" id="video-background">
     			<source src="assets/Big-City-Life.webm" type="video/webm">
     		</video>
-    		<div class="jumbotron-nav col-md-12">
-    			<div class="col-md-offset-3 col-md-6 jumbotron-navlinks">
-    				<ul class="uppernav nav navbar-nav">
-    					<li>
-    						<a href="#" id="navhome" class="whitelink">My-Loop</a>
-    					</li>
-    					<li>
-    						<a href="#" id="navabout" class="whitelink">About</a>
-    					</li>
-    					<li>
-    						<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
-    					</li>
-    					<li>
-    						<a href="#" id="navhow" class="whitelink">How</a>
-    					</li>
-      					<li>
-      						<a href="#" id="navcontact" class="whitelink">Contact Us</a>
-      					</li>
-      				</ul>
+    		<!-- Hidden From Mobile Devices -->
+    		<div class="container hidden-xs hidden-sm">
+    			<div class="jumbotron-nav col-md-12">
+    				<div class="col-md-offset-3 col-md-6 jumbotron-navlinks">
+	    				<ul class="uppernav nav navbar-nav">
+    						<li>
+    							<a href="#" id="uppernavhome" class="whitelink">My-Loop</a>
+    						</li>
+    						<li>
+    							<a href="#" id="uppernavabout" class="whitelink">About</a>
+    						</li>
+	    					<li>
+    							<img src="img/ml-logo-ppl-trans-bkgrnd.png" class="navlogo">
+    						</li>
+    						<li>
+    							<a href="#" id="uppernavhow" class="whitelink">How</a>
+    						</li>
+      						<li>
+	      						<a href="#" id="uppernavcontact" class="whitelink">Contact Us</a>
+    	  					</li>
+      					</ul>
+      				</div>
       			</div>
       		</div>
     		<div class="jumbotron-text-div">
@@ -299,10 +329,13 @@
     </iframe>
     <center>
         <div class="row">
-            <form class="contact" action="../php/mailer.php" target="contact-iframe" method="post" id="contactform">
+            <form class="contact" action="php/mailer.php" target="contact-iframe" method="post" id="contactform">
                 <div class="col-md-offset-4 col-md-4">
+                    <div class="col-md-offset-3 col-md-6">
+                        <span class="thankyoufield" id="sendclickresult"></span>
+                    </div>
                     <div class="form-group">
-                        <input class="col-md-5" type="text" name="firstname" id="namefield" placeholder="Name" required class="form-control">
+                        <input class="col-md-5" type="text" name="name" id="namefield" placeholder="Name" required class="form-control">
                         <div class="help-block with-errors">
                         </div>
                         <div class="col-md-2">
@@ -325,9 +358,6 @@
                     </div>
                 </div>
             </form>
-            <div class="col-md-offset-3 col-md-6">
-                <span class="thankyoufield" id="sendclickresult"></span>
-            </div>
         </div>
     </center>
 </div>

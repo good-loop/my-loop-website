@@ -76,6 +76,12 @@ input,textarea {
     color: white;
 }
 
+.whitelink:focus {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: white;
+}
+
 .jumbotron-text-div {
     z-index: 1;
     position: absolute;
