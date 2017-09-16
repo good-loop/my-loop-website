@@ -1,3 +1,6 @@
+banner1: My-Loop: Your Data, Under Your Control.
+banner2: A safe and ethical data collection, management, and monetisation tool
+
 <div class="soft-white col-md-12" id="ourvision">
 	<center>
 		<H1>OUR VISION</H1>
