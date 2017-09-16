@@ -1,19 +1,24 @@
 banner1: My-Loop: Your Data, Under Your Control.
 banner2: A safe and ethical data collection, management, and monetisation tool
 
-<div class="soft-white col-md-12" id="ourvision">
-	<center>
-		<H1>OUR VISION</H1>
-	</center>
-	<div class="col-md-offset-2 col-md-8">
-		<center>
-			<p class="pink-text">
-				We'll empower people to easily control their personal data and to make the internet a more positive place
-			</p>
-		</center>
-	</div>
-</div>
-<div class="soft-white col-md-12">
+
+## For Business
+
+My-Loop is the first GDPR compliant CRM system. 
+
+ - Store customer data safely and properly.
+ - Access more data - e.g. provide an email and get back a full profile.
+ - Automatic quality-control.
+
+## For Individuals
+
+
+# Our Vision 
+TODO headers auto create wrapping divs with css classes
+
+We'll empower people to easily control their personal data and to make the internet a more positive place
+
+<div class="row">
 	<div class="col-md-offset-2 col-md-8">
 		<div class="col-md-offset-2 col-md-3">
 			<center>
@@ -28,10 +33,7 @@ banner2: A safe and ethical data collection, management, and monetisation tool
 		</div>
 	</div>
 </div>
-<!-- Cheap Vertical Space -->
-<div class="soft-white col-md-12" style="height:1em;">
-</div>
-<!-- End of Cheap Vertical Space -->
+
 <div class="soft-white col-md-12">
 	<div class="col-md-offset-2 col-md-8">
 		<div class="col-md-offset-2 col-md-3">
@@ -47,10 +49,7 @@ banner2: A safe and ethical data collection, management, and monetisation tool
 		</div>
 	</div>
 </div>
-<!-- Cheap Vertical Space -->
-<div class="soft-white col-md-12" style="height:4em;">
-</div>
-<!-- End of Cheap Vertical Space -->
+
 <div class="old-radio col-md-12" id="objectives">
 	<center>
 		<H1 class="white-text">Our Objectives</H1>
