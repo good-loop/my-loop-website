@@ -4,7 +4,7 @@ banner2: A safe and ethical data collection, management, and monetisation tool
 <a name='about'></a>
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-6 col-sm-6">
 
 ## For Business
 
@@ -15,7 +15,7 @@ My-Loop is the first GDPR compliant CRM system.
  - Automatic quality-control.
 
 </div>
-<div class="col-md-6">
+<div class="col-md-6 col-sm-6">
 
 ## For Individuals
 
@@ -27,7 +27,7 @@ and make the internet a more positive place.
 </div>
 </div>
 
-# Our Vision 
+## Our Vision 
 
 The internet has become a worrying place,
 where companies secretly spy on your private business,
@@ -43,9 +43,8 @@ advertising, marketing, and sales.
 
 <img src="img/cameras.on.wall.jpg" class="img-fit">
 
-<div class="old-radio" id="objectives">
 
-# Our objectives
+## Our objectives
 
 1. Personal Control: 
 The public should have control over their personal data.
@@ -63,39 +62,40 @@ the dark.
 
 5. Quality: helping organisations access a greater quantity and quality of data, while complying with GDPR legal rules.
 
-</div>
 
-<div>
+<a name='how' />
 
 ## How it Works
 
 ### For Business
 
-Upload data into My-Loop
+1. Upload your data into My-Loop, or use My-Loop forms to collect your data.
 
-Access via our simple API
+2. Access the data via our simple fast API.
 
-Connect to the GDPR actions API to stay compliant
+3. Connect to the GDPR Actions API to meet your GDPR compliance obligations.
 
+4. Monetise your data, by allowing other companies to make use of it -- according to rules you set. 
 
-Monetise your data
-
-Positive experience
-
-My-Loop creates a positive online experience where consumers can take back control and fund real social impact. In addition it breathes new life into brand engagement online as low-value banner space is transformed into high-value targeted video advertising. Directly empowering the public increases trust and circumvents a common issue with privacy solutions by leaving the definition of acceptable intrusion to the creator. My-Loop seeks not to end the use of personal data for commercial means but to make it more effective and respectful, while helping regulate, inform, and educate
+5. Enhance your data, automatically enriching it with extra information from other data sources.
+This gives you detailed up-to-date profiles, without hassling your users.
 
 ### For Individuals
 
-1. Your My Loop profile
-My-Loop collects data about you from various sources, and organises it into a profile. This is your profile -- you can access and control this data through the secure My Loop web-app. Explore what your digital profile reveals about you. Choose what data is private, and what can be used and by whom. Decide what charities you want to support.
+My-Loop collects data about you from various sources, and organises it into a profile. This is your profile -- you can access and control this data through the secure My Loop web-app. 
 
-</div>
+ - Explore what your digital profile reveals about you. 
+ - Choose what data is private, and what can be used and by whom. 
+ - Decide what charities you want to support.
 
-<div class="col-md-12 ferriswheel-bg" id="contact">
+
+
+<a name='contact' />
 
 ## Contact Us
 
-<form class="contact" action="php/mailer.php" target="contact-iframe" method="post" id="contactform">
+<form class="contact" action="php/mailer.php" 
+	target="contact-iframe" method="post" id="contactform">
 	<div class="col-md-offset-4 col-md-4">
 		<div class="col-md-offset-3 col-md-6">
 			<span class="thankyoufield" id="sendclickresult"></span>
@@ -125,4 +125,7 @@ My-Loop collects data about you from various sources, and organises it into a pr
 	</div>
 </form>        
 
-</div>
+
+## Positive experience
+
+My-Loop creates a positive online experience where consumers can take back control and fund real social impact. In addition it breathes new life into brand engagement online as low-value banner space is transformed into high-value targeted video advertising. Directly empowering the public increases trust and circumvents a common issue with privacy solutions by leaving the definition of acceptable intrusion to the creator. My-Loop seeks not to end the use of personal data for commercial means but to make it more effective and respectful, while helping regulate, inform, and educate

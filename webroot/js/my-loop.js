@@ -22,7 +22,7 @@ $(function () {
 	$('a').click(function(e) {
 		let href = $(e.target).attr('href');
 		if ( ! href || href[0] !== '#') return;
-		let targeta = $('a[name="'+href+'"]');
+		let targeta = $('a[name="'+href.substr(1)+'"]');
 		console.log("scroll-to", href, targeta);
 		if ( ! targeta.length) return;
 		$('html, body').animate( {
