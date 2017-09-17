@@ -119,7 +119,7 @@ My-Loop collects data about you from various sources, and organises it into a pr
 			</div>
 			<!-- End of Cheap Vertical Space -->
 			<center>
-				<button class="jumbotron-btn btn" type="submit" id="sendcontactform">Submit</button>
+				<button class="btn btn-primary" type="submit" id="sendcontactform">Submit</button>
 			</center>
 		</div>
 	</div>
@@ -129,3 +129,16 @@ My-Loop collects data about you from various sources, and organises it into a pr
 ## Positive experience
 
 My-Loop creates a positive online experience where consumers can take back control and fund real social impact. In addition it breathes new life into brand engagement online as low-value banner space is transformed into high-value targeted video advertising. Directly empowering the public increases trust and circumvents a common issue with privacy solutions by leaving the definition of acceptable intrusion to the creator. My-Loop seeks not to end the use of personal data for commercial means but to make it more effective and respectful, while helping regulate, inform, and educate
+
+
+<footer>
+
+My-Loop by Good-Loop
+
+Twitter
+Facebook
+LinkedIn
+
+TODO copy from the Good-Loop pages
+
+</footer>
