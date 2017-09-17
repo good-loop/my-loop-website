@@ -119,7 +119,7 @@ My-Loop collects data about you from various sources, and organises it into a pr
 			</div>
 			<!-- End of Cheap Vertical Space -->
 			<center>
-				<button class="btn btn-primary" type="submit" id="sendcontactform">Submit</button>
+				<button class="jumbotron-btn btn" type="submit" id="sendcontactform">Submit</button>
 			</center>
 		</div>
 	</div>
