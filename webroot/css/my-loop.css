@@ -4,7 +4,8 @@
 }
 
 h1,h2,h3,h4 {
-    font-family: 'bebas neue';
+	 font-family: 'bebas neue';
+	 text-align: center;
 }
 h1 a,h2 a,h3 a,h4 a, h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover, h1 a:focus,h2 a:focus,h3 a:focus,h4 a:focus {
     color: inherit;
@@ -23,17 +24,26 @@ a, a:hover, a:focus {
 	border: solid 1px red;
 }*/
 
-.h2-section {
-	padding-top:5vw;
-	padding-bottom:5vw;
+.h2-section, footer {
+	padding-top: 1vw;
+	padding-bottom: 5vw;	
+	padding-left: 5vw;
+	padding-right: 5vw;
+	clear: both;
+}
+
+@media screen and (min-width: 768px) {
+	.h2-section, footer {
+		padding-left: calc(50vw - 375px);
+		padding-right: calc(50vw - 375px);
+	}
 }
 
 body {
-    font-family: 'Roboto Condensed';
-}
-
-div {
-    color: rgb(85,85,85);
+	 font-family: 'Roboto Condensed';
+	 font-size: 200%;
+	 color: #444;
+	 background-color: #EAECF0;
 }
 
 input,textarea {
@@ -53,7 +63,8 @@ input,textarea {
 }
 
 .navbar .navbar-nav {
-    display: inline-block;
+	 display: inline-block;
+	 float:none;
 }
 
 .navbar .navbar-collapse {
@@ -145,13 +156,15 @@ input,textarea {
     position: absolute;
 }
 
-.img-fit {
-    width: 100%;
-    height: auto;
+.fill-width {
+	width:100%;
+	height: auto;	
 }
 
-.soft-white {
-    background-color: #EAECF0;
+/*			SECTIONS 			*/
+
+.about h2 {
+	visibility: hidden;
 }
 
 .our-objectives {
@@ -164,10 +177,16 @@ input,textarea {
 
 	color: white !important;
 }
-
-.white-inset {
-    background-color: #FFFFFF;
-    border-radius: 4px;
+.our-objectives .h4-section {
+	 background-color: #FFFFFF;
+	 /* border: 1px solid #666; */
+	 border-radius: 4px;
+	 margin:1vw;
+	 color: #666;
+	 padding: 10px 0px 10px 10px;
+}
+.our-objectives h4 {
+	text-align: left;
 }
 
 .white-inset-with-border {
@@ -207,11 +226,21 @@ input,textarea {
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    background-position-y: 50%;
+	 background-position-y: 50%;
+	 
+	 color: white;
+}
+.contact-us input {
+	color:#333;
 }
 
 .thankyoufield {
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+footer {
+	background: #333;
+	color:#fff;
 }
