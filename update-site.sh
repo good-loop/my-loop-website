@@ -21,7 +21,7 @@ $SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpeg"
 echo -e ""
 
 echo -e "> Converting Markdown to HTML..."
-$SSHCOMMAND 'cd /home/winterwell/jerbil/ && java -cp jerbil.jar:lib/* Jerbil /home/winterwell/my-loop-website'
+$SSHCOMMAND 'java -cp /home/winterwell/jerbil/jerbil.jar:lib/* Jerbil /home/winterwell/my-loop-website'
 echo -e ""
 
 echo -e "My-Loop Website has now been updated"
