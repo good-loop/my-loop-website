@@ -244,3 +244,7 @@ footer {
 	background: #333;
 	color:#fff;
 }
+
+footer a:hover {
+    text-decoration: none;
+}
