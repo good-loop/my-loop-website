@@ -94,21 +94,22 @@ My-Loop collects data about you from various sources, and organises it into a pr
 
 ## Contact Us
 
-<form class="contact clearfix" action="php/mailer.php" 
-	target="contact-iframe" method="post" id="contactform">
+<form class="contact clearfix" action="https://issues.soda.sh/forms-form.json" 
+	method="post" id="contactform">
+	<input type="hidden" name="mlist" value="contact,company-news">
 	<div class="col-md-offset-2 col-md-8">
 		<div class="col-md-offset-3 col-md-6">
 			<span class="thankyoufield" id="sendclickresult"></span>
 		</div>
 		<div class="form-group">
-			<input class="col-md-12" type="email" name="email" id="emailfield" 			placeholder="Email" required="">
+			<input class="col-md-12" type="email" name="email" placeholder="Email" required="true">
 			<div class="help-block with-errors">
 			</div>
 			<!-- Cheap Vertical Space -->
 			<div class="col-md-12" style="height:1em;">
 			</div>
 			<!-- End of Cheap Vertical Space -->
-			<textarea rows="4" placeholder="Message" required="" class="form-control" id="messagefield" name="message"></textarea>
+			<textarea rows="4" placeholder="Message" class="form-control" name="message"></textarea>
 			<!-- Cheap Vertical Space -->
 			<div class="col-md-12" style="height:1em;">
 			</div>
@@ -116,9 +117,11 @@ My-Loop collects data about you from various sources, and organises it into a pr
 			<center>
 				<button class="jumbotron-btn btn" type="submit" id="sendcontactform">Submit</button>
 			</center>
+			<small>This will also add you to our mailing list for company news.</small>
 		</div>
 	</div>
 </form>        
+
 
 ## Positive experience
 
