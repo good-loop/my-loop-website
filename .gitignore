@@ -2,3 +2,4 @@
 /bin/
 *.php
 webroot/index.html
+config/jerbil.properties
