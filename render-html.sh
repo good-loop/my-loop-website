@@ -1,5 +1,3 @@
 #!/bin/bash
 
-#Publish SoGive
-
-cd ~/winterwell/jerbil/ && java -cp jerbil.jar:lib/* Jerbil ~/winterwell/good-loop/my-loop-website
+/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /home/daniel/winterwell/jerbil/jerbil.jar:/home/daniel/winterwell/jerbil/lib/* Jerbil /home/daniel/winterwell/good-loop/my-loop-website
