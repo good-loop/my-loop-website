@@ -94,17 +94,23 @@ My-Loop collects data about you from various sources, and organises it into a pr
 
 ## Contact Us
 
-<form class="contact clearfix" action="https://issues.soda.sh/forms-form.json" 
+<script src=></script>
+<form class="contact clearfix" 
+	action="http://localprofiler.winterwell.com/form/myloop.json" 
 	method="post" id="contactform">
-	<input type="hidden" name="mlist" value="contact,company-news">
+	<input type="hidden" name="purpose" value="contact,company-news">
+	<input type="hidden" name="terms" value="privacy-manifesto.html">
+	<!-- Who can use this data? "site" = the website, which is the default  -->
+	<input type="hidden" name="controller" value="site">
+	<!-- verb:query with , = or 
+	verbs: read, less commonly: write, share
+	staff = all staff at the controller (+ properly agreed subcontractors)
+	Bear in mind this is limited by the purpose.
+	-->
+	<input type="hidden" name="permission" value="read:staff">
 	<div class="col-md-offset-2 col-md-8">
-		<div class="col-md-offset-3 col-md-6">
-			<span class="thankyoufield" id="sendclickresult"></span>
-		</div>
 		<div class="form-group">
-			<input class="col-md-12" type="email" name="email" placeholder="Email" required="true">
-			<div class="help-block with-errors">
-			</div>
+			<input class="form-control col-md-12" type="email" name="email" placeholder="Email" required="true">
 			<!-- Cheap Vertical Space -->
 			<div class="col-md-12" style="height:1em;">
 			</div>
@@ -115,9 +121,13 @@ My-Loop collects data about you from various sources, and organises it into a pr
 			</div>
 			<!-- End of Cheap Vertical Space -->
 			<center>
-				<button class="jumbotron-btn btn" type="submit" id="sendcontactform">Submit</button>
+				<button class="jumbotron-btn btn" type="submit">Submit</button>
 			</center>
-			<small>This will also add you to our mailing list for company news.</small>
+			<small>
+				This will also add you to our mailing list, which our marketing team use to send company news.
+				You can of course unsubscribe at any point, and your data is protected
+				by our <a href='privacy-manifesto.html'>Privacy Manifesto</a>.
+			</small>
 		</div>
 	</div>
 </form>        
