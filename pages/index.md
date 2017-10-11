@@ -111,13 +111,18 @@ My-Loop collects data about you from various sources, and organises it into a pr
 			<!-- End of Cheap Vertical Space -->
 			<textarea rows="4" placeholder="Message" class="form-control" name="message"></textarea>
 			<!-- Cheap Vertical Space -->
-			<div class="col-md-12" style="height:1em;">
+			<div class="col-md-12" style="height:1em;"></div>
+			<div class="checkbox">
+    			<label>
+					<input name='optDefault' value='mailing-list' type='checkbox' checked /> 
+					Permission to contact me includes via the mailing list for company news.
+				</label>
 			</div>
-			<!-- End of Cheap Vertical Space -->
+			<!-- Cheap Vertical Space -->
+			<div class="col-md-12" style="height:1em;"></div>
 			<center>
 				<button class="jumbotron-btn btn" type="submit" id="sendcontactform">Submit</button>
-			</center>
-			<small>This will also add you to our mailing list for company news.</small>
+			</center>			
 		</div>
 	</div>
 </form>        
